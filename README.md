@@ -30,7 +30,7 @@ world();
 
 ## Development
 
-Install [wasm-pack](https://rustwasm.github.io/wasm -pack/):
+Install [wasm-pack](https://rustwasm.github.io/wasm-pack/):
 
 `cargo install wasm-pack`
 
