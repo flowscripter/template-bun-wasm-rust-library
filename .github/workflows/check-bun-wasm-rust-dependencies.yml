@@ -1,4 +1,4 @@
-name: check-bun-dependencies
+name: check-bun-wasm-rust-dependencies
 on:
   workflow_dispatch:
   schedule:
@@ -8,5 +8,5 @@ permissions:
   pull-requests: write
 jobs:
   call-check-bun-dependencies:
-    uses: flowscripter/.github/.github/workflows/check-bun-dependencies.yml@v1
+    uses: flowscripter/.github/.github/workflows/check-bun-wasm-rust-dependencies.yml@v1
     secrets: inherit
