@@ -4,10 +4,10 @@
     "": {
       "name": "template-bun-wasm-rust-library",
       "devDependencies": {
-        "@types/bun": "latest",
+        "@types/bun": "^1.2.10",
       },
       "peerDependencies": {
-        "typescript": "latest",
+        "typescript": "^5.8.3",
       },
     },
   },
