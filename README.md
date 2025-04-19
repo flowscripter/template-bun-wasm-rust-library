@@ -40,7 +40,7 @@ Install dependencies:
 
 Build:
 
-`wasm-pack build --target web`
+`wasm-pack build --target web --no-pack`
 
 Test:
 
