@@ -17,13 +17,13 @@
   ],
   "module": "index.ts",
   "type": "module",
-  "version": "1.0.3",
+  "version": "1.0.2",
   "files": [
-    "index.ts",
     "src/**/*",
-    "tests/**/*",
     "pkg/**/*",
-    "*"
+    "index.ts",
+    "README.md",
+    "LICENSE"
   ],
   "publishConfig": {
     "access": "public"
