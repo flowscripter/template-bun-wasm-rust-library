@@ -38,7 +38,8 @@ Install dependencies:
 
 `bun install`
 
-Build (remove generated `.gitignore` to allow npm publish from root of repository):
+Build (remove generated `.gitignore` to allow npm publish from root of
+repository):
 
 `wasm-pack build --target web --no-pack && rm pkg/.gitignore`
 
