@@ -41,7 +41,7 @@ Install dependencies:
 Build (remove generated `.gitignore` to allow npm publish from root of
 repository):
 
-`wasm-pack build --target web --no-pack && rm pkg/.gitignore`
+`wasm-pack build --target web --release --no-pack && rm pkg/.gitignore`
 
 Test:
 
