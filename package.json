@@ -1,23 +1,21 @@
 {
   "name": "@flowscripter/template-bun-wasm-rust-library",
+  "version": "1.0.8",
   "description": "Project template for a Rust library compiled to WASM exposed as a Bun module",
+  "keywords": [
+    "bun",
+    "example",
+    "library",
+    "rust",
+    "template",
+    "wasm"
+  ],
   "homepage": "https://github.com/flowscripter/template-bun-wasm-rust-library#readme",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/flowscripter/template-bun-wasm-rust-library.git"
   },
-  "license": "MIT",
-  "keywords": [
-    "bun",
-    "rust",
-    "wasm",
-    "example",
-    "template",
-    "library"
-  ],
-  "module": "index.ts",
-  "type": "module",
-  "version": "1.0.8",
   "files": [
     "src/**/*",
     "pkg/**/*",
@@ -25,6 +23,8 @@
     "README.md",
     "LICENSE"
   ],
+  "type": "module",
+  "module": "index.ts",
   "publishConfig": {
     "access": "public"
   },
