@@ -1,6 +1,6 @@
 [package]
 name = "flowscripter_template_bun_wasm_rust_library"
-version ="1.0.26"
+version = "1.0.26"
 edition = "2021"
 description = "Project template for a Rust library compiled to WASM exposed as a Bun module."
 homepage = "https://github.com/flowscripter"
@@ -9,7 +9,7 @@ repository = "https://github.com/flowscripter/template-bun-wasm-rust-library"
 exclude = [".github/"]
 
 [lib]
-crate-type = ["cdylib","lib"]
+crate-type = ["cdylib", "lib"]
 
 [dependencies]
 wasm-bindgen = "0.2.123"

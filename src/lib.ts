@@ -1,12 +1,11 @@
-import init, {
-  add,
-} from "../pkg/flowscripter_template_bun_wasm_rust_library.js";
+import init, { add } from "../pkg/flowscripter_template_bun_wasm_rust_library.js";
 
 // TODO: when https://github.com/oven-sh/bun/pull/20503 is released I believe the following can be removed
 import wasm from "../pkg/flowscripter_template_bun_wasm_rust_library_bg.wasm";
-const wasmBuffer = typeof Bun !== "undefined"
-  ? await Bun.file(wasm).arrayBuffer()
-  : await fetch(wasm).then((response) => response.arrayBuffer());
+const wasmBuffer =
+  typeof Bun !== "undefined"
+    ? await Bun.file(wasm as unknown as URL).arrayBuffer()
+    : await fetch(wasm as unknown as URL).then((response) => response.arrayBuffer());
 
 /**
  * Adds 3 and 3 and logs the result as "World 6"
