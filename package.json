@@ -16,15 +16,28 @@
     "type": "git",
     "url": "git+https://github.com/flowscripter/template-bun-wasm-rust-library.git"
   },
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "bun": "./index.ts",
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
   "files": [
+    "dist",
     "src/**/*",
     "pkg/**/*",
     "index.ts",
     "README.md",
     "LICENSE"
   ],
-  "type": "module",
-  "module": "index.ts",
+  "scripts": {
+    "build": "bun build index.ts --outdir dist --target bun && tsc -p tsconfig.build.json"
+  },
   "publishConfig": {
     "access": "public"
   },
