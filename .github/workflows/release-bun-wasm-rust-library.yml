@@ -10,6 +10,6 @@ permissions:
   pages: write
   packages: write
 jobs:
-  call-release-bun-rust-library:
+  call-release-bun-wasm-rust-library:
     uses: flowscripter/.github/.github/workflows/release-bun-wasm-rust-library.yml@v1
     secrets: inherit
