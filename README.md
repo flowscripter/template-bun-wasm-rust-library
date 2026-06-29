@@ -42,6 +42,10 @@ Build WASM/JS/types (produces `dist/` for Node.js and TypeScript consumers; Bun 
 
 `bun run build`
 
+Build JS/types (produces `dist/` for Node.js and TypeScript consumers; Bun uses raw source directly):
+
+`bun run build`
+
 Test:
 
 `cargo test && bun test`
