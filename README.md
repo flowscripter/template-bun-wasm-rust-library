@@ -38,10 +38,9 @@ Install dependencies:
 
 `bun install`
 
-Build WASM (remove generated `.gitignore` to allow npm publish from root of
-repository):
+Build WASM/JS/types (produces `dist/` for Node.js and TypeScript consumers; Bun uses raw source directly):
 
-`wasm-pack build --target web --release --no-pack && rm pkg/.gitignore`
+`bun run build`
 
 Build JS/types (produces `dist/` for Node.js and TypeScript consumers; Bun uses raw source directly):
 
