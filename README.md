@@ -58,7 +58,7 @@ Lint:
 
 `cargo fmt && bunx oxlint index.ts src/ tests/`
 
-Generate HTML API Documentation:
+Generate HTML API documentation:
 
 `bunx typedoc index.ts`
 
