@@ -1,3 +1,5 @@
+// oxlint-disable-next-line typescript/triple-slash-reference -- ambient .wasm module type must ship alongside this file for consumers
+/// <reference path="./wasm-module.d.ts" />
 import init, { add } from "../pkg/flowscripter_template_bun_wasm_rust_library.js";
 
 // TODO: when https://github.com/oven-sh/bun/pull/20503 is released I believe the following can be removed
