@@ -42,9 +42,9 @@
     "build": "wasm-pack build --target web --release --no-pack && rm pkg/.gitignore && rm pkg/flowscripter_template_bun_wasm_rust_library_bg.wasm.d.ts && tsc -p tsconfig.build.json && mkdir -p dist/pkg && cp pkg/*.js pkg/*.wasm pkg/*.d.ts dist/pkg/"
   },
   "devDependencies": {
-    "@types/bun": "^1.4.2",
-    "oxfmt": "0.72.0",
-    "oxlint": "1.87.0"
+    "@types/bun": "^1.4.3",
+    "oxfmt": "0.73.0",
+    "oxlint": "1.88.0"
   },
   "peerDependencies": {
     "typescript": "^7.0.2"
