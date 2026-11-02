@@ -12,8 +12,8 @@ exclude = [".github/"]
 crate-type = ["cdylib", "lib"]
 
 [dependencies]
-wasm-bindgen = "0.2.129"
-flowscripter_template_rust_library = "1.1.32"
+wasm-bindgen = "0.2.130"
+flowscripter_template_rust_library = "1.1.34"
 
 [dev-dependencies]
-wasm-bindgen-test = "0.3.79"
+wasm-bindgen-test = "0.3.80"
