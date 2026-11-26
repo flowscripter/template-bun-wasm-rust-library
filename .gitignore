@@ -38,4 +38,6 @@ target
 
 *.profraw
 docs
-.claude
+.claude/*
+!.claude/CLAUDE.md
+!.claude/skills/
